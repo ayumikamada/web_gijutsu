@@ -9,7 +9,7 @@ cgi.out("type" => "text/html", "charset" => "UTF-8") {
   # HTMLでレスポンスを返却する
   "<html>
     <body>
-      <p>受け取った文字列は下記になります</p>
+      <p>譲渡先が自家消費では無いものの情報は下記となります。</p>
       <p>文字列：#{get}</p>
     </body>
   </html>"
